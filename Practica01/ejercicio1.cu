@@ -22,7 +22,7 @@ int main() {
   cudaDeviceProp prop;
   cudaGetDeviceProperties(&prop, 0);
 
-  // Mostrar información en el formato solicitado
+  // Mostrar información
   printf("Salida\n");
   printf("Nombre del dispositivo: %s\n", prop.name);
   printf("Memoria global total: %lu\n", prop.totalGlobalMem);
